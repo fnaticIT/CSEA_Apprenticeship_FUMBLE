@@ -1,0 +1,12 @@
+.side_list:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .side3{
+        display: none;
+    }   
+}

@@ -1,0 +1,31 @@
+.Appx {
+  background-color: #39034e;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.Appx header {
+  background: #39034e;
+  display: flex;
+}
+
+.Appx__header {
+  display: flex;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+}
+
+.Appx__switcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.Appx__switcher-switch {
+  margin: 0 0.25rem;
+}
